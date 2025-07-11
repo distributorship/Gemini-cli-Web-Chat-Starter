@@ -40,8 +40,8 @@ You need a valid API key to access the Gemini API.
 #### 2\. Clone the Repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/gemini-web-chat-starter.git
-cd gemini-web-chat-starter
+git clone https://github.com/distributorship/Gemini-cli-Web-Chat-Starter.git
+cd Gemini-cli-Web-Chat-Starter
 ```
 
 #### 3\. Install Dependencies
