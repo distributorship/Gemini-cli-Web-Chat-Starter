@@ -89,7 +89,7 @@ Open your web browser and navigate to:
 http://localhost:3000
 ```
 
-You can now type your questions or instructions into the input field and click "Send" to get responses from the Gemini API.
+You can now type your questions or instructions into the input field and click "Submit" to get responses from the Gemini API.
 
 ### Project Structure
 
