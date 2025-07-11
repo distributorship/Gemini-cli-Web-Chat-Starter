@@ -7,7 +7,7 @@
 
 /* 如果需要，可以添加一些自定义的字体或颜色 */
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: "Aleo", "Sarasa UI TC", "XHei", "PingFang TC", "Noto Sans TC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft Jhenghei", sans-serif;
     background-color: #f8f9fa; /* Bootstrap 默认的浅灰色背景 */
 }
 
