@@ -85,8 +85,6 @@ You should see a message indicating the server is running, e.g.: `Server running
 
 Open your web browser and navigate to:
 
-Copy
-
 ```
 http://localhost:3000
 ```
