@@ -1,0 +1,17 @@
+/* public/style.css */
+
+/* 隐藏类，用于控制元素的显示/隐藏 */
+.hidden {
+    display: none !important; /* 使用 !important 确保覆盖 Bootstrap 的显示规则 */
+}
+
+/* 如果需要，可以添加一些自定义的字体或颜色 */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa; /* Bootstrap 默认的浅灰色背景 */
+}
+
+/* 调整卡片文本颜色，使其更清晰 */
+.card-text {
+    color: #343a40 !important; /* 深灰色 */
+}
