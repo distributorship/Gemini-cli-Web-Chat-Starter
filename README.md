@@ -94,14 +94,12 @@ You can now type your questions or instructions into the input field and click "
 
 ```
 gemini-cli-web-chat-starter/
-├── node_modules/           # Node.js dependencies
 ├── public/                 # Frontend static files (HTML, CSS, JS)
 │   ├── index.html          # Main HTML page
 │   ├── style.css           # Custom CSS for styling
 │   └── script.js           # Frontend JavaScript logic
 ├── .env                    # Environment variables (for API key)
-├── package.json            # Project metadata and dependencies
-├── package-lock.json       # Dependency tree lock file
+├── GEMINI.md               # Your AI prompt
 └── server.js               # Backend Node.js server with API endpoint
 ```
 
