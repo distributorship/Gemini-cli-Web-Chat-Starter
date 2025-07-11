@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         geminiResponseDiv.innerHTML = ''; // 清空回复区域，使用 innerHTML 以便后续渲染 HTML
 
         if (!prompt) {
-            errorDiv.textContent = '请输入您的问题或指令。';
+            errorDiv.textContent = 'Please write down your question.';
             errorDiv.classList.remove('hidden'); // 显示错误提示
             return;
         }
@@ -51,9 +51,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         } catch (error) {
             console.error('Error:', error);
-            errorDiv.textContent = `请求失败: ${error.message}`;
+            errorDiv.textContent = `Error: ${error.message}`;
             errorDiv.classList.remove('hidden'); // 显示错误提示
-            geminiResponseDiv.textContent = '未能获取回复。'; // 错误时显示纯文本
+            geminiResponseDiv.textContent = 'No response.'; // 错误时显示纯文本
         } finally {
             loadingDiv.classList.add('hidden'); // 隐藏加载提示
             generateBtn.disabled = false; // 启用按钮
