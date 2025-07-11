@@ -16,7 +16,7 @@ if (!GEMINI_API_KEY) {
 
 // 初始化 Gemini 客户端
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: 'gemini-2.5-pro-latest' }); // 使用 gemini-pro 模型
+const model = genAI.getGenerativeModel({ model: 'gemini-1.5-pro-latest' }); // 使用 gemini-pro 模型
 
 // 中间件：解析 JSON 请求体
 app.use(express.json());
