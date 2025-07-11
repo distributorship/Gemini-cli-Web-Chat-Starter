@@ -10,7 +10,7 @@ The primary goal of this project is to demonstrate a basic setup for sending use
 ### Features
 
 - **User-Friendly Interface:** A clean and intuitive web UI for submitting prompts and viewing responses.
-- **Google Gemini API Integration:** Seamlessly connects to the Gemini API (specifically `gemini-1.0-pro` or `gemini-1.5-pro` for text generation).
+- **Google Gemini API Integration:** Seamlessly connects to the Gemini API (specifically `gemini-2.5-pro` or `gemini-1.5-pro` for text generation).
 - **Markdown Rendering:** Utilizes the `marked.js` library to parse and render Markdown-formatted responses from the Gemini API, ensuring well-structured and readable output.
 - **Asynchronous Communication:** Handles API requests asynchronously, providing a smooth user experience with loading indicators.
 - **Error Handling:** Basic error display for network issues or API-related problems.
