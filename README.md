@@ -27,6 +27,7 @@ Before you begin, ensure you have the following installed:
 
 - **Node.js:** [Download & Install Node.js](https://nodejs.org/en/download/) (includes npm)
 - **npm:** Node Package Manager (comes with Node.js)
+- **Install Gemini-CLI:** Please find [https://github.com/google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) for detail.
 
 #### 1\. Obtain a Google Gemini API Key
 
