@@ -49,7 +49,10 @@ cd Gemini-cli-Web-Chat-Starter
 Install the necessary Node.js packages:
 
 ```
-npm install
+mkdir gemini-web-app  
+cd gemini-web-app
+npm init -y
+npm install express @google/generative-ai dotenv
 ```
 
 #### 4\. Configure Your API Key
